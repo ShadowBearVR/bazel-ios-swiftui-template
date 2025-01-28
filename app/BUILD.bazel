@@ -59,4 +59,6 @@ ios_application(
     deps = [
         ":app.library",
     ],
+    # Add provisioning profile here for on-device development.
+    # provisioning_profile="my_profile.mobileprovision"
 )
